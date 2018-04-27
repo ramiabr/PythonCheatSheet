@@ -1,3 +1,3 @@
 # Python Cheatsheet
 
-Cheatsheet for day to day errands
+Cheatsheet for day to day errand
