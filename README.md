@@ -24,6 +24,23 @@ list2 = [4 ,5, 6]
     print (x,y)
 ```
 
+### Find unique elements in list 
+```python 
+listVar = ["cat", "dog", "cat"]
+np.unique(listVar)
+```
+
+### Remove dupicate elements between two lists
+```python 
+a = ["abc", "def", "ijk", "lmn", "opq", "rst", "xyz"]
+b = ["ijk", "lmn", "opq", "rst", "123", "456", ]
+[elem for elem in b if elem not in a ]
+(or)
+list(set(b)-set(a))
+```
+
+
+
 ## Pattern Matching 
 ### Extract patterns from string 
 ```python
