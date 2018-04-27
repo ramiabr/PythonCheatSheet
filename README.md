@@ -1,3 +1,3 @@
-# PythonCheatSheet
+# Python Cheatsheet
 
-Cheatsheet for most common python commands
+Cheatsheet for day to day errands
