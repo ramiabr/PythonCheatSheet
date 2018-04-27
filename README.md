@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Apr 26 22:17:37 2018
-
-@author: Sudhiram
-"""
-
 # Cheatsheet to run errand
 
 ### Open a file in Read mode and extract the contents into an array 
