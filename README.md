@@ -16,6 +16,14 @@ arrVar = strVar.split("DELIMITTER")
 strVar = str.join("", arrVar)
 ```
 
+### Iterate two lists at the same time 
+```python
+list1 = [1, 2, 3]
+list2 = [4 ,5, 6]
+  for (x,y) in zip(list1, list2):
+    print (x,y)
+```
+
 ## Pattern Matching 
 ### Extract patterns from string 
 ```python
