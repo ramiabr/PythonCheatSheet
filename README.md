@@ -1,9 +1,11 @@
 ### Cheatsheet to run errand
 
 # Open a file in Read mode and extract the contents into an array 
+```python
 with open(file_name) as f:
   arrVar = f.read().splitlines()
-  
+```
+
 # Split a string into array 
 arrVar = strVar.split("DELIMITTER")
 
