@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Apr 26 22:17:37 2018
+
+@author: Sudhiram
+"""
+
 # Cheatsheet to run errand
 
 ### Open a file in Read mode and extract the contents into an array 
@@ -38,7 +45,50 @@ b = ["ijk", "lmn", "opq", "rst", "123", "456", ]
 (or)
 list(set(b)-set(a))
 ```
+### Convert String to Datetime 
+```python 
+from datetime import datetime
+dt_obj = datetime.strptime('Jun 1 2005  1:33PM', '%b %d %Y %I:%M%p')
+dt_obj.day 
+dt_obj.month 
+dt_obj.year
+dt_obj.hour
+dt_obj.minute
+dt_obj.second
+```
 
+### Convert Datetime to String 
+```python 
+dt_obj.strftime('%d-%m-%Y')
+```
+
+### Sort data based on Date
+```python 
+import operator
+l = [{'date': '2010-04-01','people': 1047, 'hits': 4522},{'date': '2010-04-03', 'people': 617, 'hits': 2582},{'date': '2010-04-02', 'people': 736, 'hits': 3277}]
+sorted( l, key = operator.itemgetter('date') )
+```
+
+### Misc printing stuff
+```python
+"Hello {0}".format("World")
+
+l = [1, 2, 3]
+len(l) => 3 
+
+range(1,3) => [1, 2]
+``` 
+
+
+### Getoptions
+```python 
+import sys, getopt
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], "h:ifile",  ["ifile=", "h=", "step=", "debug"])
+    except getopt.GetoptError as err:
+        print str(err)
+        usage()
+```
 
 
 ## Pattern Matching 
