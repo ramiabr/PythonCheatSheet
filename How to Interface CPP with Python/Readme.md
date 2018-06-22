@@ -6,19 +6,19 @@ Lets say we need to use LicenseModel class in Python code then you need to do th
 
 #### Original Code:
 ```
-class LicenseModel () {
+class Shape () {
 
 }
 ```
 
 #### New Code:
 ```
-class LicenseModel () {
+class Shape () {
 
 }
 
 extern "C" {
-	LicenseModel* LicenseModel_new(const char* licenseKey) {  return new LicenseModel(licenseKey); }
-	bool isLicenseKeyValid_new(LicenseModel* lic_model) { return lic_model->isLicenseKeyValid(); }
+	Shape* Shape_new(const char* name) {  return new Shape(name); }
+	bool ShapeValid_new(Shape* shapeObj) { return shapeObj->valid(); }
 }
 ```
