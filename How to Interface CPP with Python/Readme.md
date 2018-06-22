@@ -2,7 +2,7 @@
 
 ## Step 1:
 You need to create an interface point in C++ code where the Python can interface with C++ code. 
-Lets say we need to use LicenseModel class in Python code then you need to do the following 
+Lets say we need to use Shape class in Python code then you need to do the following 
 
 #### Original Code:
 ```
